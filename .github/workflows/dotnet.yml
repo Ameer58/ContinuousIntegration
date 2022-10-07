@@ -25,4 +25,4 @@ jobs:
       working-directory: SafariPark_Final
     - name: Test
       run: dotnet test --no-build --verbosity normal
-      working-directory: SafariPark_Final
+
