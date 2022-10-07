@@ -18,8 +18,8 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      working-directory: SafariPark_Final
       run: dotnet restore
+      working-directory: SafariPark_Final
     - name: Build
       working-directory: SafariPark_Final
       run: dotnet build --no-restore
