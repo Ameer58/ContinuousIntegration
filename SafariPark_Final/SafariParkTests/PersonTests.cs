@@ -25,10 +25,6 @@ namespace SafariParkTests
             Assert.AreEqual(35, subject.Age);
         }
 
-        [Test]
-        public void Fail()
-        {
-            Assert.Fail();
-        }
+       
     }
 }
